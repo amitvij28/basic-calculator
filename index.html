@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="calc">
+        <h1>CALCULATOR</h1>
+        <input type="text" name="screen" id="screen" class="screen" disabled    ><br>
+        <input type="button" value="1" class="btn" id="1" onclick="addtoscreen(1)">
+        <input type="button" value="2" id="2" onclick="addtoscreen(2)" class="btn">
+        <input type="button" value="3" id="3" onclick="addtoscreen(3)" class="btn">
+        <input type="button" value="+" id="plus" onclick="addtoscreen('+')" class="btn op"> <br>
+        <input type="button" value="4" id="4" onclick="addtoscreen(4)" class="btn ">
+        <input type="button" value="5" id="5" onclick="addtoscreen(5)" class="btn">
+        <input type="button" value="6" id="6" onclick="addtoscreen(6)" class="btn">
+        <input type="button" value="-" id="plus" onclick="addtoscreen('-')" class="btn op"><br>
+        <input type="button" value="7" id="7" onclick="addtoscreen(7)" class="btn">
+        <input type="button" value="8" id="8" onclick="addtoscreen(8)" class="btn">
+        <input type="button" value="9" id="9" onclick="addtoscreen(9)" class="btn">
+        <input type="button" value="*" id="plus" onclick="addtoscreen('*')" class="btn op"><br>
+        <input type="button" value="0" id="0" onclick="addtoscreen(0)" class="btn">
+        <input type="button" value="/" id="divide" onclick="addtoscreen('/')" class="btn op">
+        <input type="button" value="=" id="equal" onclick="calculate()" class="btn fn">
+        <input type="button" value="clr" id="clear" onclick="clr()" class="btn fn" >
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
